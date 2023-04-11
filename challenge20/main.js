@@ -8,6 +8,8 @@ for (i=0; i<=numeroUsuario; i++) {
     suma += numero;
 }
 
+//el meotodo apply es para buscar dentro de la lista
+
 let mayor = Math.max.apply(null,listaNumeros);
 
 let menor = Math.min.apply(null,listaNumeros);
