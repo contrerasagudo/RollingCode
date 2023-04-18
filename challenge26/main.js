@@ -4,7 +4,7 @@ let num_user=undefined
 
 
 //Bucle infinito hasta que se interrumpa por la linea nº10 (gracias san google)
-//En la linea 13 uso la funcion trim para que no me tome los espacion vacios o que sean letras 
+//En la linea 14 uso la funcion trim para que no me tome los espacion vacios o que sean letras 
 //Tenia el problema que los espacios vacios me los tomaba como un cero en el array
 while (true) {
     num_user = prompt("Ingresa los numeros o presione en cancelar si quiere salir");
