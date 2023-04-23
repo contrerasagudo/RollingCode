@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge30</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h2>Juego de Piedra , Papel o Tijeras</h2>
+    </header>
+    <main>
+            <div class="marcador">
+                <p id="jugador">Jugador</p>
+                <p id="puntos_jugador">0</p>
+                <p id="puntos_cpu">0</p>
+                <p id="cpu">Maquina</p> 
+            </div>
+
+            <div class="eleccion">
+                <button class="arma" id="piedra">Piedra</button>
+                <button class="arma" id="papel">Papel</button>
+                <button class="arma" id="tijera">Tijera</button>
+            </div>
+
+            <div class="muestra_jugada">
+                <p >El Jugador uso <span id="turno_jugador"></span></p>
+                <p >La Maquina uso <span id="turno_cpu"></span></p>
+            </div>
+
+            <div class="muestra_final">
+                <p id="final">Vamos a jugar al mejor de 5</p>
+            </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

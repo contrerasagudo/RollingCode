@@ -1,0 +1,89 @@
+*{margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+html{background-color: rgb(5, 11, 48);}
+main{
+    background-color: rgb(5, 11, 48);
+    height: 100%;
+    width: 100%;
+}
+
+
+h2{display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+background-color: rgb(5, 20, 83);
+color: rgb(170, 173, 166);}
+
+
+
+.marcador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    gap: 1rem;
+    padding: 2rem 0 ;
+}
+
+
+#puntos_cpu ,#puntos_jugador{ background-color: rgb(212, 228, 228);
+padding: 1rem;
+border-radius: 1rem;}
+
+
+#jugador , #cpu{padding:0.5rem 1rem;
+background-color: brown;
+border-radius: 1rem;
+color: rgb(204, 199, 192);}
+
+.eleccion{display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+padding: 2rem;}
+
+
+.arma:hover{
+    cursor: pointer;
+    background-color: rgb(21, 66, 9);
+    color: aliceblue;
+    border: none;
+}
+
+
+.arma{
+    font-size: 1.5rem;
+}
+
+.muestra_jugada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    line-height: 2rem;
+    color: aliceblue;
+}
+
+
+
+.muestra_final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+
+@media(max-width:475px){
+    .marcador{font-size: 1.5rem;}
+    h2{font-size: 1rem;}
+    .arma{font-size: 1.6rem;}
+}
+
+@media(max-width:415px){
+    .marcador{font-size: 1.2rem;}
+    .arma{font-size: 1.5rem;}
+}
