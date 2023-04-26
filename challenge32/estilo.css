@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    background-color:rgb(17, 48, 105);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header,h1{
+    background-color: rgb(12, 12, 71);
+    color: aliceblue;
+    padding: 1rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 5rem;
+    background-color: rgb(12, 12, 71);
+}
+.intro{
+    margin: 1rem;
+    text-align: justify;
+    background-color: rgb(17, 48, 105);
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 1rem 1rem;
+    background-color: brown;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+
+}
+
+label , input ,span , button {background-color: brown;
+    color: aliceblue;
+}
+
+button{font-size: 1.2rem;}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.informe_final{
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
