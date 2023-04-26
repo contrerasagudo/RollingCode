@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge32</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/Sin nombre.png" alt="">
+        <h1>Reporte Pirata</h1>
+        <img src="./img/Sin nombre.png" alt="">
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>El barco esta entrando al muelle y usted es un espia pirata que esta observando para su capitan , a
+                continuaciion le pedira su informe para ver si vale la pena tomar el riesgo de saquear.</p><br>
+            <p>Tienes acceso al "Draft" y la "Crew" del barco. "Draft" es el peso total del barco y "Crew" es el número de personas en el barco.
+
+                Cada miembro añade 1.5kg al peso del barco. Si luego de remover el peso de las personas, el peso del barco sigue siendo más de 20kg, significa que el botín es bueno.</p>Tiees acceso al "Draft" y la "Crew" del barco. "Draft" es el peso total del barco y "Crew" es el número de personas en el barco.
+
+                Cada miembro añade 1.5kg al peso del barco. Si luego de remover el peso de las personas, el peso del barco sigue siendo más de 20kg, significa que el botín es bueno.
+        </div>
+        <form id="reporte_pirata">
+            <label for="draft">Ingrese el peso total del barco</label>
+            <input type="range" id="draft" min="50" max="400" value="50">
+            <span id="draft2">0</span><br>
+            <label for="crew">Ingrese la cantidad de ocupantes</label>
+            <input type="range" id="crew" min="0" max="300" value="0">
+            <span id="crew2">0</span><br><br>
+            <button type="submit">Enviar informe pirata</button>
+        </form>
+        <div class="informe_final">
+            <p id="saqueo"></p>
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
