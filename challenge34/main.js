@@ -48,5 +48,5 @@ class Persona {
 
 //Objetos instanciados para prueba
 let rodrigo = new Persona("Rodrigo", 32, "M", 81, 170, 1990);
-let claudia = new Persona ("Claudia",30 ,"F",65,160,1998);
+let claudia = new Persona ("Claudia",30 ,"F",65,160,1992);
 let abueloSimpson = new Persona ("Abel",80 ,"M",65,180,1943);
