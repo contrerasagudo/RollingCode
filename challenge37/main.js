@@ -10,7 +10,7 @@ function juego(){
    
     let contador = 9;
 
-    var respuesta = (prompt('Introduzca un numero del 1 al 100'));
+    let respuesta = (prompt('Introduzca un numero del 1 al 100'));
 
     
 
