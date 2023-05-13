@@ -5,10 +5,10 @@ function juego(){
     boton2=document.getElementById("boton2");
     
 
-    var numeroAleatorio = Math.floor(Math.random()*100);
+    let numeroAleatorio = Math.floor(Math.random()*100);
 
    
-    var contador = 9;
+    let contador = 9;
 
     var respuesta = (prompt('Introduzca un numero del 1 al 100'));
 
