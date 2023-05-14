@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Challenge 38 - Cronometro</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cronometro</h1>
+    </header>
+
+    <div class="cronometro">
+        <div id="horas">00</div>
+        <div id="minutos">00</div>
+        <div id="segundos">00</div>
+        <div id="centesimas">00</div>
+    </div>
+    <div class="botones">
+        <button id="start" onclick="start()">Start</button>
+        <button id="pause" disabled onclick="pause()">Pause</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

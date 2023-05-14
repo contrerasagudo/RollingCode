@@ -1,0 +1,57 @@
+* {
+    background-color: rgb(3, 33, 61);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: brown;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1rem;
+}
+
+h1 {
+    background-color: brown;
+}
+
+.cronometro {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+#horas,
+#minutos,
+#segundos,
+#centesimas {
+    background-color: rgb(209, 166, 86);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.botones {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(218, 206, 47);
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
