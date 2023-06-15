@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+}
+
+.Header{
+  background-color: rgb(38, 74, 129);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.loco{
+  flex-direction: row;
+}
+body{
+  background-color: rgb(7, 7, 58);
+}
+
