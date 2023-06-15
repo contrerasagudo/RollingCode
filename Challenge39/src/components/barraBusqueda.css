@@ -1,0 +1,10 @@
+.busqueda{
+   padding: 1rem;
+
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
